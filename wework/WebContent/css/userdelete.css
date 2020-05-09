@@ -1,0 +1,53 @@
+@charset "utf-8";
+body{
+	background-color: #ccc;
+}
+#header{
+	width: 100%;
+	text-align: center;
+}
+.header_inner{
+	width: 600px;
+	height: 80px;
+	margin: 30px auto;
+}
+.header_logo{
+	font-size: 40px;
+	font-weight: normal;
+	font-family: 'Monoton', cursive;
+}
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+.container_inner{
+	width: 600px;
+	height: 300px;
+	margin: 80px auto 240px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.container_title{
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.input_div{
+	width:500px;
+	margin: 30px auto;
+}
+.input_area{
+	width: 300px;
+	height: 40px;
+	padding-left: 10px;
+}
+.input_button{
+	width: 120px;
+	height: 40px;
+	margin-left: 30px;
+}
+.input_button:FIRST-CHILD {
+	margin-left: 0;
+}

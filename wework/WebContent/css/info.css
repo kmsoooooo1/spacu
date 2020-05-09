@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+
+.container_inner{
+	width: 900px;
+	margin: 100px auto 100px;
+}
+
+.container_title{
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.info_table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #888;
+	margin-bottom: 50px;
+}
+.info_tr{
+	height: 50px;
+	border-bottom: 1px solid #888;
+}
+.info_tr:LAST-CHILD{
+	border-bottom: 0;
+}
+.info_th, .info_td{
+	line-height: 50px;
+}
+.info_th{
+	border-right: 1px solid #888;
+}
+.info_btn{
+	width: 200px;
+	height: 60px;
+	margin-left: 30px;
+}
+
+.info_btn:FIRST-CHILD {
+	margin-left: 0;
+}

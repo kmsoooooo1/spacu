@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+.container_inner{
+	width: 600px;
+	margin:50px auto;
+}
+
+.info_table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.info_th{
+	width: 20%;
+	border:1px solid #ccc;
+}
+.info_table td{
+	border: 1px solid #ccc;
+}
+.info_td{
+	width: 30%;
+}
+
+.input_div{
+	width: 600px;
+	height: 40px;
+	text-align: right;
+	margin-top:15px;
+}
+.input_div:FIRST-CHILD{
+	margin-top:50px;
+}
+.input_label{
+	width: 100px;
+	display: inline-block;
+	text-align: left;
+	margin-right: 20px;
+}
+.input_area{
+	width: 450px;
+	height: 40px;
+	text-align: right;
+	padding: 0 10px;
+}
+
+.input_area:FIRST-CHILD {
+	text-align: left;
+}
+
+.input_div:LAST-CHILD{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.input_button{
+	width: 150px;
+	height: 40px;
+	margin-left: 20px;
+}
+.input_button:FIRST-CHILD {
+	margin-left: 0;
+}

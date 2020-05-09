@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+#container{
+	width: 100%;
+	margin-top:100px;
+	text-align: center;
+}
+.container_inner{
+	width: 1200px;
+	margin: 30px auto 70px;
+}
+.location_info_div{
+	text-align: left;
+	width:800px;
+	float: left;
+	margin-right: 40px;
+}
+
+.reserv_div{
+	width: 360px;
+	float: left;
+	border: 1px solid #aaa;
+	text-align: left;
+	padding:15px;
+	overflow: hidden;
+}
+
+.location_name{
+	font-size:40px;
+	margin-bottom: 25px;
+}
+
+.info1{
+	display: inline-block;
+	width: 100px;
+	font-weight: bold;
+}
+.info2{
+	color: #888;
+	font-weight: bold;
+}
+.location_text{
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #888;
+	margin-bottom: 100px;
+}
+
+.location_img{
+	width: 700px;
+	margin-left: 50px;
+	height: 400px;
+	background-color: #ccc;
+	background-size: cover;
+}
+
+.p_info_title{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.p_info_text{
+	font-size: 13px;
+}
+
+.place_img{
+	width: 300px;
+	height: 200px;
+	background-color: #ccc;
+	background-size: cover;
+}
+
+.input_area{
+	font-size: 12px;
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	padding: 0 10px;
+	text-align: right;
+}
+
+.place_info{
+	display: none;
+	margin: 10px 10px;
+}
+.input_button{
+	width: 300px;
+	height: 50px;
+	margin-top:20px;
+}
+
+.reserv_info{
+	margin: 10px 10px;
+}
+
+.location_exp1{
+	font-size: 25px;
+	color: #888;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+
+.location_exp2{
+	font-size: 40px;
+	color: #888;
+	font-weight: normal;
+	margin-bottom: 100px;
+}
+
+.img_btn{
+	width: 5%;
+	background-color: #fff;
+	opacity: 0.5;
+	font-weight: bold;
+	text-align: center;
+}
+.img_btn:hover{
+	cursor: pointer;
+}
+
+.p_img_btn{
+	height: 200px;
+	line-height: 200px;
+}
+.l_img_btn{
+	height: 400px;
+	line-height: 400px;
+}
+
+.img_btn_l{
+	float: left;
+}
+.img_btn_r{
+	float: right;
+}
+.location_img:after{
+	display: block;
+	content:"";
+	clear: both;
+}
+.place_img:after{
+	display: block;
+	content:"";
+	clear: both;
+}
+
+
+.container_inner:after{
+	display: block;
+	content:"";
+	clear: both;
+}

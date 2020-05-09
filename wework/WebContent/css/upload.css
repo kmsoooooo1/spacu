@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+.container_inner{
+	width: 500px;
+	margin: 220px auto;
+}
+
+.input_area{
+	width: 250px;
+	height: 40px;
+}
+.container_title{
+	margin: 50px 0;
+}
+
+.button_div{
+	width: 500px;
+	height: 40px;
+	text-align: center;
+	margin-top: 60px;
+}
+.input_button{
+	width: 120px;
+	height: 40px;
+	margin-left: 20px;
+}
+.input_button:FIRST-CHILD {
+	margin-left: 0;
+}

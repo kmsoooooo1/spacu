@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+.container_inner{
+	width: 1100px;
+	margin: 100px auto 150px;
+}
+.container_title{
+	text-align: left;
+	font-size: 40px;
+	margin: 30px 0;
+}
+
+
+
+
+.location_info1{
+	margin: 50px 0 100px;;
+}
+.location_img{
+	width: 550px;
+	height: 450px;
+	float: left;
+	background-color: #ccc;
+}
+.info1_table{
+	margin-left:100px;
+	width: 450px;
+	height: 450px;
+	float: left;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.location_info1:after{
+	display: block;
+	content:"";
+	clear: both;
+}
+
+.info1_tr{
+	border-top:1px solid #888;
+	border-bottom:1px solid #888;
+	height:50px; 
+}
+.info1_tr td, .info1_tr th{
+	padding-left: 10px;
+}
+.info1_tr:NTH-CHILD(5){
+	height: 150px;
+}
+
+.addr_span{
+	display: block;
+	margin-top:5px;
+}
+.addr_span:FIRST-CHILD{
+	margin-top:0;
+	margin-bottom: 10px;
+	color: red;
+}
+
+
+
+
+.place_div{
+	position: relative;
+	width: 100%;
+	padding: 20px;
+}
+.place_title{
+	margin: 30px auto;
+}
+
+
+
+
+.place_table{
+	width: 100%;
+	border-collapse: collapse;
+	border:1px solid #888;
+	margin-bottom: 100px;
+}
+.place_tr{
+	height: 40px;
+	border-bottom: 1px solid #888;
+}
+.place_tr:hover{
+	cursor: pointer;
+}
+.place_tr:FIRST-CHILD{
+	cursor: default;
+}
+.place_th{
+	font-size: 14px;
+}
+.place_tr:LAST-CHILD {
+	border-bottom: none;
+}
+
+.location_exp{
+	width: 100%;
+	font-weight: normal;
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+.location_txt{
+	margin: 30px 0 50px;
+}
+
+.input_btn{
+	width: 120px;
+	height: 40px;
+}
+
+.place_div .input_btn{
+	position: absolute;
+	right: 20px;
+	bottom: 50px;
+}

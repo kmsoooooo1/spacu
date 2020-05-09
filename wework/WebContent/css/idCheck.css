@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+
+.container_inner{
+	width: 400px;
+	height: 350px;
+	margin: 20px auto;
+}
+
+.check_result{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.input_button{
+	width: 100px;
+	height: 40px;
+}
+
+.input_area{
+	width: 250px;
+	height: 40px;
+	padding-left: 10px;
+	margin: 10px 0 20px;
+}
+.check_box{
+	margin-top: 50px;
+}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#footer{
+	width: 100%;
+	background-color: #222;
+	text-align: center;
+	color: #ccc;
+	overflow: hidden;
+}
+.footer_inner{
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto 50px;
+	padding: 20px;
+	text-align: left;
+}
+.footer_logo{
+	padding: 0 0 20px;
+	font-weight:normal;
+	font-size:20px;
+	border-bottom: 1px solid #888;
+	font-family: 'Monoton', cursive;
+}
+.footer_text{
+	font-size: 12px;
+	width:70%;
+	float: left;
+}
+
+.text_exp{
+	display: inline-block;
+	margin: 10px 10px 0 0;
+}
+.footer_text_wrap{
+	height: 60px;
+}
+.footer_copyright{
+	position:relative;
+	font-size: 12px;
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.footer_text_wrap:after{
+	display: block;
+	content:"";
+	clear: both;
+}
+
+.copyright_text{
+	display: inline-block;
+	position: absolute;
+	margin: 10px;
+	right: 0;
+	bottom: 0;
+}

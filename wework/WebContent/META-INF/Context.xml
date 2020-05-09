@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="jdbc/wework"
+		auth="Container"
+		type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/project_ex?serverTimezone=UTC"
+		username="db_id"
+		password="db_password"
+		driverClassName="com.mysql.jdbc.Driver"
+		maxActivie="500"
+		maxIdle="100"
+	/>
+</Context>

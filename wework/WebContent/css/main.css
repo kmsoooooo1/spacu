@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+.container{
+	position:relative;
+	margin-top:85px;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.section_1{
+}
+.section1_inner{
+	width:1200px;
+	height: 500px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px;
+	position: relative;
+}
+.more_span{
+	position: absolute;
+	right: 60px;
+	bottom: 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.div_title{
+	margin: 40px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.arrow_div{
+	width: 30px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+
+.arrow_text{
+	display: block;
+	height: 300px;
+	line-height: 300px;
+	font-size: 1.2em;
+	font-weight: bold;
+	
+}
+.arrow_text:hover{
+	cursor: pointer;
+}
+
+.list_wrap{
+	width:1090px;
+	height: 300px;
+	overflow:hidden;
+	float: left;
+}
+
+.section1_inner:after{
+	dlsplay: block;
+	content:"";
+	clear: both;
+}
+
+.list_container{
+	width: 3270px;
+	height: 300px;
+}
+
+.location_list{
+	width:350px;
+	height: 300px;
+	float: left;
+	background-color: #fff;
+	margin-left: 20px;
+}
+.location_list:FIRST-CHILD{
+	margin-left: 0;
+}
+.location_list:NTH-CHILD(3n+1){
+	margin-left: 0;
+}
+.list_img{
+	width: 100%;
+}
+.list_name{
+	padding-left:10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.list_exp{
+	padding-left: 10px;
+	font-size: 12px;
+	color: #888;
+}
+.l_img_wrap{
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+	margin:0 0 20px 0;
+}
+.l_img_wrap:hover{
+	cursor: pointer;
+}
+
+
+/* ==========    section2     ============ */
+
+.section2_inner{
+	position: relative;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========    section3     ============ */
+.section_3{
+	background-image: url("../images/desk.jpg");
+	background-size: cover;
+	overflow: hidden;
+}
+
+.div_title3{
+	color: #fff;
+}
+.section3_inner{
+	width:900px;
+	margin: 30px auto;
+	text-align:center;
+}
+.email_text{
+	width: 700px;
+	height: 30px;
+	margin:10px 0 0;
+	padding-left: 10px;
+}
+.email_text:NTH-CHILD(4){
+	margin-bottom: 30px;
+}
+
+.email_area{
+	width: 700px;
+	height: 200px;
+	padding: 10px;
+}
+
+.email_exp{
+	font-size: 10px;
+	font-weight: bold;
+	
+}
+
+.email_button{
+	width: 700px;
+	height: 60px;
+	margin-top: 20px;
+}
+
+.email_div{
+	position: absolute;
+	width: 700px;
+	top:20px;
+	right: 50px;
+	text-align: left;
+	z-index: 3;
+}
+.email_wrap{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.email_back{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+
